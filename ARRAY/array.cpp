@@ -1,5 +1,12 @@
 #include<iostream>
 using namespace std;
+void printarray (arr[15],int size){
+    cout<<"printing the arry"<<endl;
+    //print the array
+    for(int i=0; i<size; i++){
+        cout<< arr[i]<<" ";
+    }
+}
 int main (){
     // array declaration 
     int number [12];
@@ -42,8 +49,31 @@ int main (){
         index++;
     }
     //3.by using for loop
-    //take input in array
+    for(int i=0; i<15; i++){
+        cout<<third[i];
+    }
 
+    cout<<endl;
+    //take input in array
+    char vowels [5];
+      //by using for loop
+       cout<<"take input in array";
+    //   cout<<endl;
+    //   for(int i =0;i<5; i++){
+    //     cin>>vowels[index];
+    //   } 
+      
+    //   for (int indx=0; indx<5; indx++){
+    //     cout<<vowels[indx]<<" ";
+    //   }
+    
+    // by using for each loop
+    for(char&ele :vowels){
+        cin>>ele;
+    }
+      
+   // array with function 
+   void printarry
 
     return 0;
 }
