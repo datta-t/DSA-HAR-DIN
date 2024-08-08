@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void printarray (arr[15],int size){
+void printarray (int arr[15],int size){
     cout<<"printing the arry"<<endl;
     //print the array
     for(int i=0; i<size; i++){
@@ -21,8 +21,8 @@ int main (){
    cout << "value at 2 index "<<second[3]<<endl;
   
   int third[15]={5,2};
-  cout<<"value at index "<<third[1]<<endl;
-  cout<<"value at index "<<third[11]<<endl;
+  //cout<<"value at index "<<third[1]<<endl;
+  //cout<<"value at index "<<third[11]<<endl;
 
   //size of array
  cout<< sizeof(third)<<endl;
@@ -73,7 +73,8 @@ int main (){
     }
       
    // array with function 
-   void printarry
+   cout<<"printing arry "<<endl;
+   printarray(third,10);
 
     return 0;
 }
